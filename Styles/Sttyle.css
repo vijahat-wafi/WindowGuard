@@ -1,0 +1,430 @@
+body {
+  margin: 0;
+  padding: 0%;
+}
+* {
+  margin: 0%;
+  padding: 0%;
+}
+/* Topbar */
+.Topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 10px;
+  background-color: #111111;
+  color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 9;
+}
+.Topbar-left-top-contant {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.Topbar p,
+h6 {
+  margin: 0;
+  font-weight: 500;
+}
+
+.Topbar-right-contant button {
+  background-color: transparent !important;
+  color: #888888 !important ;
+  border: none;
+  font-weight: 500;
+}
+
+.Topbar-right-contant button:hover {
+  color: #f1efef !important;
+  transition: all 0.3s;
+}
+.offcanvas-body {
+  padding: 0 1rem !important    ;
+}
+/* .offcanvas-header .btn-close {
+  background-color: white;
+  color: #888888 !important;
+} */
+.offcanvas.offcanvas-end {
+  background-color: #111111 !important;
+  color: #707070;
+  /* width: 20%; */
+}
+.offcanvas-body ul li {
+  border-bottom: 1px solid silver;
+  padding: 15px 0;
+  list-style: none;
+}
+
+.offcanvas-body ul {
+  margin: 0;
+  padding: 0 0 0 15px;
+}
+.Topbar-right-contant .offcanvas-body ul li:hover {
+  color: #fff;
+  transition: all 0.3s;
+}
+@media screen and (max-width: 992px) {
+  .Topbar-left-top-contant {
+    display: none;
+  }
+}
+/* hero section */
+.Herosection {
+  background: linear-gradient(
+      to right,
+      rgba(218, 69, 94, 0.842),
+      rgba(78, 19, 19, 0.37),
+      rgba(0, 0, 0, 0.534)
+    ),
+    url(../Assets/brownstone-house-with-window-bars-1356857510.avif);
+  padding: 84px 24px 24px 44px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.Hero-contant {
+  text-align: center;
+}
+.Herosection h1 {
+  font-size: 50px;
+  color: #ffff;
+  font-weight: 300;
+  margin: 0;
+}
+.Herosection button {
+  font-size: 15px;
+  border-radius: 4px;
+  background-color: #ce1b28;
+  padding: 13px 29px;
+  color: #ffff;
+  font-weight: 500;
+  border: none;
+  margin: 6px 0 5px 0;
+}
+.Herosection button:hover {
+  background-color: #e62835;
+  transition: all 0.3s;
+}
+.Herosection h2 {
+  color: #ffff;
+  padding-top: 5px;
+  font-size: 30px;
+}
+/* main middle contant */
+.Main-contant {
+  text-align: center;
+  padding: 114px 0;
+  background: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0.9)
+    ),
+    url(../Assets/asset\ 14.jpeg);
+
+  background-attachment: fixed;
+}
+.Main-contant button {
+  font-size: 15px;
+  border-radius: 4px;
+  background-color: #ce1b28;
+  padding: 13px 29px;
+  color: #ffff;
+  font-weight: 500;
+  border: none;
+  margin: 5px 0 16px 0;
+}
+.Main-contant button:hover {
+  background-color: #e62835;
+  transition: all 0.3s;
+}
+.main-window-details {
+  width: 82%;
+  margin: 0 auto;
+}
+.main-window-details h2 {
+  font-size: 32px;
+  color: rgb(133, 128, 128);
+
+  padding-bottom: 20px;
+  font-weight: 300;
+}
+.main-window-details h3 {
+  font-size: 29px;
+  color: #555;
+  padding-bottom: 32px;
+  font-weight: 400;
+}
+.main-window-details p {
+  font-size: 14px;
+  color: #444;
+}
+/* Requirments */
+.Requirment-cards-main {
+  width: 82%;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+.Requirment-cards-main h4 {
+  font-size: 14px;
+  color: #8f8c8c;
+  font-weight: 400;
+}
+.Requirment-cards-main p {
+  font-size: 16px;
+  color: #817f7f;
+  margin-bottom: 29px;
+  margin-top: 20px;
+}
+.Requirment-cards img {
+  border: 1px solid #b9131e;
+  width: 80%;
+  height: 200px;
+  padding: 10px;
+}
+.Req-card {
+  padding: 40px 40px 30px 40px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.Req-card p {
+  margin: 0;
+}
+.Req-card-prnt {
+  padding: 20px;
+}
+.Req-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 20px;
+  transition: all 0.2s;
+  transform: scale(1.02);
+}
+/* .Req-card:hover,
+    .Requirment-cards img {
+    padding: 5px;
+    } */
+@media screen and (max-width: 1140px) {
+  .Req-card-prnt {
+    padding: 10px;
+  }
+}
+/* window guard */
+.window-guard-subprnt {
+  width: 80%;
+  margin: 0 auto;
+  padding: 80px 0;
+}
+.Window-guard-main img {
+  width: 100%;
+}
+.Window-guard-leftcontant img {
+  border-radius: 10px;
+}
+.Window-guard-rightcontant {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.Window-guard-rightcontant p {
+  color: #111111;
+  opacity: 80%;
+}
+.Window-guard-rightcontant h1 {
+  color: #111111;
+  font-weight: 400;
+}
+.window-guard-subprnt button {
+  font-size: 15px;
+  border-radius: 4px;
+  background-color: #ce1b28;
+  padding: 13px 29px;
+  color: #ffff;
+  font-weight: 500;
+  border: none;
+  margin: 5px 0 16px 0;
+  width: 40%;
+}
+.window-guard-subprnt button a {
+  text-decoration: none;
+  color: #fff;
+  opacity: 90%;
+}
+.window-guard-subprnt button:hover {
+  background-color: #e62835;
+  transition: all 0.3s;
+}
+.window-guardwindow-second-contant {
+  padding-top: 30px;
+}
+.window-guardwindow-second-contant .Window-guard-rightcontant img {
+  height: 100%;
+  border-radius: 10px;
+}
+.window-guardwindow-second-contant .Window-guard-leftcontant {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.window-guardwindow-third-contant img {
+  height: 512px;
+}
+/* custom guard cards */
+.custom-window-guardcards {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+.custom-window-guardcards .card-body {
+  text-align: left;
+}
+.custom-window-guardcards .card-body p {
+  margin: 0;
+  padding: 0;
+  color: #111111;
+  opacity: 90%;
+  font-size: 15px;
+  line-height: 100%;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+.custom-window-guardcards .card-body ul li {
+  margin: 0;
+  padding: 0;
+  color: #111111;
+  opacity: 90%;
+  font-size: 15px;
+  line-height: 100%;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+.custom-window-guardcards .card-body a {
+  font-size: 15px;
+  border-radius: 4px;
+  background-color: #ce1b28;
+  padding: 13px 29px;
+  color: #ffff;
+  font-weight: 500;
+  border: none;
+  margin: 5px 0 16px 0;
+}
+.custom-window-guardcards .card-body a:hover {
+  background-color: #e62835;
+  transition: all 0.3s;
+}
+
+.card {
+  height: 100%;
+}
+/* video section */
+.video-main {
+  margin: 30px auto;
+  width: 98%;
+}
+.video-subprnt {
+  width: 100%;
+  margin: 0 auto;
+  background-image: url(https://www.hbfabco.com/wp-content/uploads/2023/08/background-texture.jpg);
+}
+.video-main video {
+  width: 100%;
+}
+.video-left-contant {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  padding: 0 0 0 30px;
+}
+.video-subprnt h2 {
+  font-weight: 400;
+  color: black;
+}
+.video-subprnt p {
+  color: #111111;
+  opacity: 90%;
+}
+.video-subprnt p a {
+  color: #b9131e;
+}
+.video-subprnt p a:hover {
+  color: #dd1825;
+  transition: all 0.3s;
+}
+/* footer */
+.custom-container {
+  background-color: #111111;
+}
+.Footer-main {
+  width: 82%;
+  margin: 0 auto;
+  padding: 90px 0 90px 0;
+}
+.Footer-main h3 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffff;
+  padding-bottom: 20px;
+}
+.Footer-main p {
+  color: #ffff;
+  opacity: 50%;
+}
+.footer-cell p:hover {
+  color: #e00d1b;
+}
+.Footer-main p a {
+  text-decoration: none;
+  color: #ffff;
+}
+.Footer-main p a:hover {
+  color: #f10c1c;
+}
+.Footer-main button {
+  font-size: 15px;
+  border-radius: 4px;
+  background-color: #ce1b28;
+  padding: 13px 29px;
+  color: #ffff;
+  font-weight: 500;
+  border: none;
+  margin: 6px 0 5px 0;
+}
+.Footer-main button:hover {
+  background-color: #e62835;
+  transition: all 0.3s;
+}
+.footer-cell {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.footer-cell p {
+  margin: 0;
+  padding: 0;
+}
+.Footer-icon-prnt {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+.Footer-icon-prnt p {
+  margin: 0;
+}
+.Footer-icon-prnt p:hover {
+  color: #ff0011;
+  transition: all 0.3s;
+}
+.footer-icon {
+  background-color: black;
+  padding: 10px;
+  border-radius: 5px;
+  color: #ffff;
+}
+.footer-copyright {
+  text-align: center;
+  font-size: 13px;
+  padding: 10px 0 0 0;
+}
