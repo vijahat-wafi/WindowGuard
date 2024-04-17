@@ -267,8 +267,89 @@ h6 {
   gap: 10px;
 }
 .window-guardwindow-third-contant img {
-  height: 512px;
+  height: 500px;
+  width: 100%;
 }
+.window-guardwindow-third-contant p {
+  margin: 0;
+}
+.float-contant {
+  color: #111111;
+  opacity: 90%;
+}
+.extra-contant {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0px 0 30px 0;
+}
+.extra-contant h6 {
+  font-size: 17px;
+  color: #111111;
+  opacity: 90%;
+}
+.extra-contant p {
+  font-size: 15px;
+  color: #111111;
+  opacity: 90%;
+}
+@media screen and (max-width: 1199px) {
+  .window-guardwindow-third-contant .Window-guard-leftcontant img {
+    height: 589px !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .video-left-contant h2 {
+    padding: 20px 0 0 0px;
+  }
+  .custom-Cards-prnt {
+    padding-top: 20px;
+  }
+}
+@media screen and (max-width: 623px) {
+  .window-guardwindow-second-contant .Window-guard-rightcontant img {
+    height: 500px !important;
+  }
+}
+@media screen and (max-width: 548px) {
+  .window-guardwindow-third-contant .Window-guard-leftcontant img {
+    height: 333px !important;
+  }
+  .window-guardwindow-second-contant .Window-guard-rightcontant img {
+    height: 333px !important;
+  }
+}
+@media screen and (max-width: 412px) {
+  .window-guard-subprnt button {
+    padding: 10px 20px;
+  }
+  .custom-window-guardcards .card-body a {
+    padding: 10px 20px !important;
+    font-size: 10px !important;
+    margin: 5px 0 0 0 !important;
+  }
+  .Footer-main button {
+    padding: 10px 20px !important;
+    font-size: 10px !important;
+  }
+}
+@media screen and (max-width: 404px) {
+  .float-contant {
+    margin-top: 10px !important;
+  }
+  .window-guardwindow-second-contant .Window-guard-rightcontant img {
+    height: 303px !important;
+  }
+}
+
+@media screen and (max-width: 356px) {
+  .window-guard-subprnt button {
+    padding: 10px 1px;
+  }
+  .custom-window-guardcards .card-body a {
+    padding: 5px 1px;
+  }
+}
+
 /* custom guard cards */
 .custom-window-guardcards {
   text-align: center;
@@ -320,7 +401,7 @@ h6 {
 /* video section */
 .video-main {
   margin: 30px auto;
-  width: 98%;
+  width: 80%;
 }
 .video-subprnt {
   width: 100%;
@@ -398,6 +479,7 @@ h6 {
 .footer-cell {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 20px;
 }
 .footer-cell p {
