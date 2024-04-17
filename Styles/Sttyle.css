@@ -147,9 +147,12 @@ h6 {
 .main-window-details h2 {
   font-size: 32px;
   color: rgb(133, 128, 128);
-
   padding-bottom: 20px;
   font-weight: 300;
+}
+.main-window-details p {
+  color: #111111;
+  opacity: 90%;
 }
 .main-window-details h3 {
   font-size: 29px;
@@ -269,6 +272,7 @@ h6 {
 .window-guardwindow-third-contant img {
   height: 500px;
   width: 100%;
+  object-fit: cover;
 }
 .window-guardwindow-third-contant p {
   margin: 0;
